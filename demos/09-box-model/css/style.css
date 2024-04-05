@@ -1,0 +1,13 @@
+div {
+    border: 5px dotted aquamarine;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: bisque;
+}
+p {
+    border: 10px dashed forestgreen;
+    margin: 60px;
+    padding: 30px;
+    background-color: firebrick;
+    border-radius: 50%;
+}
