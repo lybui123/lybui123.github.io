@@ -1,0 +1,93 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 3px solid red;
+    border-radius: 10%;
+}
+#content h1 {
+    color: blue;
+}
+#left-side h4 {
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+#id-and-expiration span {
+    color: red;
+}
+#id-and-expiration div {
+    color: blue;
+}
+#address {
+    font-weight: bold;
+}
+#small-pic img {
+    width: 90px;
+    opacity: 50%;
+    display: inline-block;
+}
+#data-fields {
+    display: inline-block;
+}
+#data-left span {
+    color: red;
+}
+#data-right span {
+    color: red;
+}
+#data-left div,
+#data-right div {
+    color: blue;
+}
+#signature {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+#right-side img {
+    width: 170px;
+    display: inline-block;
+}
+#donor {
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+}
+#real-id {
+    color: white;
+    background-color: gold;
+    border: 1px solid gold;
+    border-radius: 50%;
+    display: inline-block;
+}
+#id-and-expiration {
+    display: inline-block;
+}
+#id-and-expiration #expires {
+    display: inline-block;
+    text-align: right;
+}
+#id-and-expiration #license-no {
+    display: inline-block;
+}
+#data-right {
+    display: inline-block;
+}
+#data-left {
+    display: inline-block;
+}
+#left-side {
+    display: inline-block;
+}
+#right-side {
+    display: inline-block;
+}
