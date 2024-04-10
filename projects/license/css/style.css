@@ -7,51 +7,61 @@
     Good luck, and have fun!
 */
 #license {
-    border: 3px solid red;
-    border-radius: 10%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: goldenrod;
+    padding: 0px 24px 24px 24px;
 }
 #content h1 {
-    color: blue;
+    color: darkblue;
+    margin-bottom: 0px;
 }
 #left-side h4 {
-    border: 1px solid blue;
-    background-color: blue;
+    border: 1px solid darkblue;
+    background-color: darkblue;
     text-align: center;
     color: white;
+    padding: 5px;
+    margin-top: 10px;
 }
 #id-and-expiration span {
-    color: red;
+    color: crimson;
+    font-weight: bold;
 }
 #id-and-expiration div {
-    color: blue;
+    color: darkblue;
 }
 #address {
     font-weight: bold;
+    margin-bottom: 10px;
+}
+#small-pic {
+    display: inline-block;
 }
 #small-pic img {
-    width: 90px;
+    width: 80px;
     opacity: 50%;
-    display: inline-block;
 }
 #data-fields {
     display: inline-block;
+    margin-left: 5px;
 }
-#data-left span {
-    color: red;
-}
+#data-left span,
 #data-right span {
-    color: red;
+    color: crimson;
+    font-weight: bold;
 }
 #data-left div,
 #data-right div {
-    color: blue;
+    color: darkblue;
 }
 #signature {
     font-family: cursive;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     font-style: italic;
     text-align: center;
+    margin-top: 5px;
 }
 #right-side img {
     width: 170px;
@@ -59,7 +69,7 @@
 }
 #donor {
     font-weight: bold;
-    color: red;
+    color: crimson;
     display: inline-block;
 }
 #real-id {
@@ -71,10 +81,11 @@
 }
 #id-and-expiration {
     display: inline-block;
+    margin-bottom: 10px;
 }
 #id-and-expiration #expires {
     display: inline-block;
-    text-align: right;
+    margin-left: 15px;
 }
 #id-and-expiration #license-no {
     display: inline-block;
@@ -90,4 +101,8 @@
 }
 #right-side {
     display: inline-block;
+    margin-left: 12px;
+}
+#donor-and-real-id {
+    text-align: center;
 }
