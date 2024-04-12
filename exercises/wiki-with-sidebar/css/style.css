@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: serif;
+}
+#left-side li {
+    list-style-type: none;
+}
+#left-side a {
+    text-decoration: none;
+}
+#left-side,
+#right-side {
+    display: flex;
+}
