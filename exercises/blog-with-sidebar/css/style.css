@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#blog {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-areas: "sidebar contents";
+    margin: 36px 0px;
+    background-color: rgb(214, 129, 143);
+}
+#sidebar {
+    background-color: pink;
+    grid-area: sidebar;
+    padding: 24px;
+}
+#contents {
+    background-color: rgb(214, 129, 143);
+    grid-area: contents;
+    padding: 24px;
+    text-align: center;
+}
