@@ -7,7 +7,7 @@ body {
 }
 #blog {
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 250px 1fr;
     grid-template-areas: "sidebar contents";
     margin: 36px 0px;
     background-color: rgb(214, 129, 143);
@@ -16,10 +16,41 @@ body {
     background-color: pink;
     grid-area: sidebar;
     padding: 24px;
+    border-top: 5px solid palevioletred;
+    border-bottom: 5px solid palevioletred;
+    border-left: 5px solid palevioletred;
 }
 #contents {
     background-color: rgb(214, 129, 143);
+    border: 5px solid palevioletred;
     grid-area: contents;
     padding: 24px;
     text-align: center;
+}
+#contents h2 {
+    background-color: rgb(196, 64, 86);
+    padding: 12px;
+    color: white;
+    font-style: italic;
+    font-family: serif;
+    font-size: 30px;
+}
+#contents h1 {
+    font-family: serif;
+    font-size: 41px;
+}
+#sidebar h2 {
+    font-family: serif;
+    font-size: 25px;
+}
+#sidebar ul li a {
+    text-decoration: none;
+    color: rgb(196, 64, 86);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 0px 15px;
 }
