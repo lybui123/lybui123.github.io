@@ -54,3 +54,12 @@ body {
     list-style-type: none;
     padding: 0px 15px;
 }
+#image-1 img {
+    width: 450px;
+}
+#image-2 img {
+    width: 250px;
+}
+#image-3 img {
+    width: 350px;
+}
