@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+#navbar p span a {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+#navbar p a {
+    text-decoration: none;
+    color: black;
+}
+#navbar p a:hover {
+    text-decoration: underline;
+}
+#mebay #m {
+    color: rebeccapurple;
+    font-size: 40px;
+    font-weight: bold;
+}
+#mebay #e {
+    color: coral;
+    font-size: 40px;
+    font-weight: bold;
+}
+#mebay #b {
+    color: cornflowerblue;
+}
+#mebay #a {
+    color: chocolate;
+}
+#mebay #y {
+    color: cadetblue;
+}
+#left-side img {
+    width: 130px;
+    display: flex;
+    padding: 3px;
+}
+#left-side img:hover {
+    opacity: 50%;
+    border: 2px dashed black;
+    border-radius: 12px;
+}
+#center img {
+    width: 500px;
+    padding: 3px;
+}
+#center img:hover {
+    opacity: 50%;
+    border: 5px dashed gray;
+    border-radius: 24px;
+}
+#about-seller {
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+#right-side #about-seller #seller span {
+    color: gray;
+}
+#right-side #about-seller #seller a {
+    color: black;
+}
+#right-side #about-seller #learn-more a {
+    color: black;
+}
+#about-seller a:hover {
+    opacity: 50%;
+}
+#right-side p span {
+    border: 1px solid black;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+#buy-it-now,
+#add-to-cart,
+#add-to-watchlist {
+    border-radius: 30px;
+    text-align: center;
+    padding: 17px;
+    margin-bottom: 12px;
+}
+#right-side #buy-it-now {
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+#right-side #buy-it-now:hover {
+    background-color: rgb(76, 117, 194);
+}
+#right-side #add-to-cart {
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+    background-color: white;
+}
+#right-side #add-to-watchlist {
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+    background-color: white;
+}
+#right-side #add-to-cart:hover,
+#right-side #add-to-watchlist:hover {
+    background-color: rgb(231, 230, 230);
+}
+#buttons #buy-it-now a {
+    color: white;
+}
+#buttons div a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#quantity,
+#buttons {
+    margin-top: 38px;
+}
+#right-side {
+    margin-left: 48px;
+}
+#center,
+#left-side,
+#navbar {
+    margin-left: 12px;
+}
+#mebay {
+    margin-left: 24px;
+}
