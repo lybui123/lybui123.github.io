@@ -1,21 +1,24 @@
-#container {
+#container-1 {
     background: linear-gradient(red, black);
     padding: 48px;
 }
-#inside {
+#inside-1 {
     width: 50%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     color: white;
 }
-#inside h2 {
+#inside-1 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     margin-bottom: 0px;
     color: black;
 }
-#inside #slogan {
+#inside-1 img {
+    width: 200px;
+}
+#inside-1 .slogan {
     font-size: 21px;
     margin-bottom: 0px;
     margin-top: 30px;
@@ -23,17 +26,104 @@
     font-family: sans-serif;
     font-weight: bold;
 }
-#inside #description {
+#inside-1 .description {
     font-size: 12px;
     margin-top: 10px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#sub-heading span {
+#sub-heading-1 span {
     font-size: 20px;
     font-style: italic;
 }
-#sub-heading {
+#sub-heading-1 {
+    margin-bottom: 25px;
+    color: black;
+    font-weight: bold;
+}
+/* space */
+#container-2 {
+    background: linear-gradient(red, black);
+    padding: 48px;
+}
+#inside-2 {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+#inside-2 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: black;
+}
+#inside-2 img {
+    width: 200px;
+}
+#inside-2 .slogan {
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#inside-2 .description {
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sub-heading-2 span {
+    font-size: 20px;
+    font-style: italic;
+}
+#sub-heading-2 {
+    margin-bottom: 25px;
+    color: black;
+    font-weight: bold;
+}
+/* space */
+#container-3 {
+    background: linear-gradient(red, black);
+    padding: 48px;
+}
+#inside-3 {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+#inside-3 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: black;
+}
+#inside-3 img {
+    width: 200px;
+}
+#inside-3 .slogan {
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#inside-3 .description {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sub-heading-3 span {
+    font-size: 20px;
+    font-style: italic;
+}
+#sub-heading-3 {
     margin-bottom: 25px;
     color: black;
     font-weight: bold;
