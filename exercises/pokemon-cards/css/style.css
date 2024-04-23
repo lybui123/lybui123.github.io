@@ -1,0 +1,75 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-3 {
+    /* min-width: 600px;
+    max-width: 1200px; */
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 18px solid gold;
+    border-radius: 12px;
+    width: 350px;
+}
+
+.card-style-3 img {
+    width: 280px;
+    border: 5px solid goldenrod;
+    margin: 0px auto;
+}
+
+.details {
+    background: radial-gradient(at center, transparent, goldenrod);
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-style: italic;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.health {
+    padding: 24px 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.name {
+    margin-left: 17px;
+    font-size: 26px;
+}
+
+#pokemon-card-1 {
+    background: radial-gradient(at center, darkgreen, lightgreen);
+}
+#pokemon-card-2 {
+    background: radial-gradient(at center, darkgreen, lightgreen);
+}
+#pokemon-card-3 {
+    background: radial-gradient(at center, orangered, orange);
+}
+#pokemon-card-4 {
+    background: radial-gradient(at center, darkcyan, cyan);
+}
