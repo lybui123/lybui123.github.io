@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#page-1 {
+    background-image: url("../image/scotland.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+#content-1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 3px dashed gray;
+    padding: 2vh 4vw 4vh;
+    margin: 0vh 5vw 5vh 0vw;
+}
+#content-1 h2 {
+    font-size: 4.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+#content-1 h4 {
+    font-size: 2.5vw;
+    margin-top: 0vh;
+    margin-bottom: 3.5vh;
+}
+#content-1 ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 2.5vw;
+}
+#content-1 a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2vw;
+}
+
+#page-2 {
+    background-image: url("../image/desert-tumbleweed.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#content-2 {
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 3px dashed gray;
+    padding: 2vh 4vw 4vh;
+    margin: 5vh 0vw 0vh 0vw;
+}
+
+#page-3 {
+    background-image: url("../image/unicorn.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
