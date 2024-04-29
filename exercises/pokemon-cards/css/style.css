@@ -95,6 +95,7 @@ body {
     font-weight: bold;
     border: 2px solid goldenrod;
     margin: 0px 16px;
+    margin-bottom: 16px;
     padding: 5px;
 }
 .attack .description {
