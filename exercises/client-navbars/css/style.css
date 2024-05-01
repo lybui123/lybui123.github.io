@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: serif;
+}
+
+#navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(at top left, #dfaf5e, #61714d);
+}
+#navbar-1 h1 {
+    margin-right: auto;
+    padding: 12px;
+    color: white;
+}
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#navbar-1 #gallery,
+#navbar-1 #contact {
+    background-color: #c2a887;
+    border-radius: 60px;
+    margin: 24px;
+    margin-right: 48px;
+    text-align: center;
+}
+
+#navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d4337;
+}
+#navbar-2 h1 {
+    padding: 12px;
+    color: #bfbcab;
+    font-weight: 400;
+    margin-right: auto;
+    margin-left: 24px;
+    border-right: 2px solid #bfbcab;
+}
+#navbar-2 a {
+    /* text-decoration: none; */
+    color: #bfbcab;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+}
+#navbar-2 #button {
+    background-color: #ef7474;
+    border-radius: 36px;
+    padding: 16px;
+    box-shadow: -4px 4px 8px #333333;
+    margin: 0px 48px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-3-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#5e32ba, #eb6123);
+}
+#navbar-3-main h1 {
+    margin-right: auto;
+    color: #1818a1;
+    padding: 12px;
+    text-shadow: -2px 2px 7px #333333;
+}
+#navbar-3-main a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#navbar-3-main #button {
+    background-color: #e9804d;
+    border-radius: 36px;
+    margin-right: 48px;
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: inset -4px 4px 10px #7a2700;
+}
+#navbar-3-sub {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#96c457, #bfda7a);
+    /* background-color: #96c457; */
+}
+#navbar-3-sub a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+p {
+    text-align: center;
+}
