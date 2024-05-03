@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#gallery-1 h2 {
+    margin-left: 48px;
+    font-size: 40px;
+}
+#cards-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#cards-1 .card-content {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(2, 99, 99);
+    margin: 24px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: cadetblue;
+    transition: box-shadow 0.5s;
+}
+#cards-1 p {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(2, 125, 125);
+    transition: text-shadow 0.5s;
+}
+#cards-1:hover .card-content {
+    box-shadow: inset 4px 4px 5px rgb(0, 85, 85);
+}
+#cards-1:hover .card-content p {
+    text-shadow: 4px 4px 5px rgb(1, 107, 107);
+}
+
+#cards-2 {
+    font-family: serif;
+    color: rgb(255, 190, 38);
+    display: flex;
+    flex-wrap: wrap;
+}
+#gallery-2 h1 {
+    margin-left: 48px;
+    color: rgb(92, 29, 151);
+}
+#cards-2 .card-content {
+    flex: 300px;
+    border: 7px solid rgb(255, 190, 38);
+    padding: 12px;
+    margin: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(92, 29, 151);
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#cards-2 p {
+    font-size: 20px;
+    color: rgb(205, 205, 205);
+}
+#card2-1:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+#card2-2:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+#card2-3:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+#card2-4:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+
+#cards-3 {
+    font-family: serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#gallery-3 h2 {
+    margin-left: 48px;
+}
+#cards-3 .card-content {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    padding: 12px;
+    margin: 24px;
+    border-radius: 12px;
+    background-color: rgb(136, 204, 136);
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#cards-3 h2 {
+    font-size: 60px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+#cards-3 h3 {
+    font-size: 30px;
+    margin-top: 0px;
+    font-style: italic;
+}
+#cards-3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(1, 71, 1);
+    padding: 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+}
+#cards-3:hover a {
+    opacity: 1;
+    visibility: visible;
+    box-shadow: 2px 2px 5px black;
+}
+#card3-1:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+#card3-2:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+#card3-3:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
+#card3-4:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 7px black;
+}
