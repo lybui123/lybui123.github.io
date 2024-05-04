@@ -5,3 +5,103 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(
+        to bottom,
+        rgb(242, 104, 104),
+        rgb(181, 0, 0)
+    );
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar a:hover {
+    background-color: rgb(124, 25, 25);
+}
+.navbar .logo {
+    margin-right: auto;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    font-family: serif;
+    font-style: italic;
+    text-shadow: -4px 4px 5px rgb(124, 25, 25);
+}
+.navbar .logo:hover {
+    background-color: transparent;
+}
+.dropdown-menu {
+    position: relative;
+}
+.dropdown-links a {
+    background-color: rgb(124, 25, 25);
+    width: 100%;
+    min-width: 150px;
+}
+.dropdown-links {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+.dropdown-menu:hover .dropdown-links {
+    opacity: 1;
+    visibility: visible;
+}
+.navbar .dropdown-links a:hover {
+    background-color: rgb(202, 94, 94);
+}
+.donate {
+    margin-right: 3vw;
+}
+
+/* HERO */
+#hero {
+    background-image: url("../image/hero-image.jpeg");
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#hero h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7vw;
+    margin-bottom: 15px;
+    text-shadow: -4px 4px 5px black;
+}
+#hero a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: rgb(124, 25, 25);
+    padding: 14px;
+    padding-bottom: 16px;
+    border-radius: 0px 32px;
+    font-family: serif;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    font-size: 20px;
+    box-shadow: -4px 4px 5px black;
+    transition: transform 0.5s;
+}
+#hero a:hover {
+    transform: translateY(-8px);
+}
+
