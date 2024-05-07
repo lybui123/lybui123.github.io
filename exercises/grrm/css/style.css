@@ -445,27 +445,79 @@ body {
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
-            "top-left-acc header  header  header  top-right-acc"
-            "left-accent  navbar  navbar  navbar  right-accent"
-            "left-accent  banner  banner  banner  right-accent"
-            "left-accent  card-1  card-2  card-3  right-accent"
-            "left-accent  aside   blog    blog    right-accent"
-            ".            footer  footer  footer  ."
-            ".            bottom  bottom  bottom  .";
+            "top-left-acc header    top-right-acc"
+            "left-accent  navbar    right-accent"
+            "left-accent  banner    right-accent"
+            "left-accent  card-1   right-accent"
+            "left-accent  card-2    right-accent"
+            "left-accent  card-3    right-accent"
+            "left-accent  aside     right-accent"  
+            "left-accent  blog      right-accent"
+            ".            footer               ."
+            ".            bottom               .";
+    }
+    #header h1 {
+        font-size: 60px;
+    }
+    #nav {
+        flex-wrap: wrap;
+    }
+    #nav a {
+        flex: 1;
     }
 }
 
 /* MOBILE */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width: 400px) {
     #grid-layout {
         grid-template-columns: 1fr;
         grid-template-areas:
-            "top-left-acc header  header  header  top-right-acc"
+            /* "top-left-acc header  header  header  top-right-acc"
             "left-accent  navbar  navbar  navbar  right-accent"
             "left-accent  banner  banner  banner  right-accent"
             "left-accent  card-1  card-2  card-3  right-accent"
             "left-accent  aside   blog    blog    right-accent"
             ".            footer  footer  footer  ."
-            ".            bottom  bottom  bottom  .";
+            ".            bottom  bottom  bottom  ."; */
+            "header"
+            "navbar"
+            "banner"
+            "card-1"
+            "card-2"
+            "card-3"
+            "aside"
+            "blog"
+            "footer"
+            "bottom"
+    }
+    #shield-image,
+    #search-bar,
+    #search-button {
+        display: none;
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #header h1 {
+        font-size: 50px;
+    }
+    #nav {
+        flex-wrap: wrap;
+    }
+    #nav a {
+        flex: 0;
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
     }
 }
