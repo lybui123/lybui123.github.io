@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Baloo Thambi 2", serif;
+}
+
+.header {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: auto;
+    padding: 12px;
+}
+.header .logo #japanese {
+    font-family: "Papyrus", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header #cuisine {
+    font-style: italic;
+    margin-top: -19px;
+    font-size: 18px;
+}
+.header .navbar {
+    display: flex;
+}
+.header .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+}
+.header .navbar .menu {
+    position: relative;
+    margin-top: 12px;
+}
+.header .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: #ff0000;
+}
+.dropdown-menu a {
+    border-bottom: 1px solid #fefaf6;
+}
+.menu:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.navbar .dropdown-menu a:hover {
+    background-color: #fefaf6;
+}
+
+#home {
+    text-align: center;
+}
+#home #japanese-cuisine-logo {
+    padding: 24px;
+    padding-bottom: 0px;
+    width: 400px;
+}
+#home #sushi-dish {
+    width: 400px;
+}
+#home #about #overview,
+#home #about #mission-statement {
+    font-family: "Papyrus", serif;
+    font-size: 20px;
+    text-align: center;
+}
+#home #about {
+    background-color: #00333333;
+    margin: 12px;
+    margin-top: 0px;
+}
+#home #about h2 {
+    margin-bottom: 0px;
+    padding: 0px 24px;
+    text-decoration: underline;
+}
+#home #about #overview p {
+    border-right: 2px solid black;
+    padding: 0px 12px;
+    font-size: 18px;
+    font-family: "Baloo Thambi 2";
+}
+#home #about #mission-statement p {
+    padding: 0px 12px;
+    font-size: 18px;
+    font-family: "Baloo Thambi 2";
+}
+#about {
+    display: flex;
+}
+
+.footer {
+    background-color: #ff0000;
+    font-family: "Baloo Thambi 2", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    padding-bottom: 32px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.first-column,
+.second-column,
+.third-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
