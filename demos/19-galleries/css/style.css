@@ -15,7 +15,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     border: 10px solid #333333;
     padding: 24px;
-    gap: 24PX;
+    gap: 24px;
 }
 .basic-grid-gallery img {
     width: 100%;

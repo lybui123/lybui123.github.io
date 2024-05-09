@@ -70,7 +70,26 @@ body {
     width: 400px;
 }
 #home #sushi-dish {
-    width: 400px;
+    width: 700px;
+    margin-top: 20px;
+    padding: 24px;
+}
+#food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#food #description h2 {
+    font-family: "Papyrus";
+    font-size: 34px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+#food p {
+    font-family: "Baloo Thambi 2", sans-serif;
+    padding: 24px;
+    font-size: 22px;
+    font-weight: bold;
 }
 #home #about #overview,
 #home #about #mission-statement {
@@ -80,8 +99,8 @@ body {
 }
 #home #about {
     background-color: #00333333;
-    margin: 12px;
-    margin-top: 0px;
+    margin: 0px 20vw;
+    margin-bottom: 15px;
 }
 #home #about h2 {
     margin-bottom: 0px;
@@ -122,4 +141,38 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+#menu {
+    text-align: center;
+}
+#menu #logo-with-image {
+    padding: 24px;
+    padding-bottom: 0px;
+    width: 400px;
+}
+#menu #gallery h2 {
+    font-family: "Papyrus";
+    font-size: 40px;
+    text-decoration: underline;
+    background-color: #ff0000;
+    margin: 12px 48px;
+    margin-top: 24px;
+    padding: 12px;
+    padding-top: 18px;
+}
+#menu #onigiri-menu,
+#menu #udon-menu,
+#menu #sushi-menu,
+#menu #side-dishes-menu,
+#menu #best-selling-menu,
+#menu #drinks-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    gap: 12px;
+}
+#menu #gallery img {
+    width: 100%;
+    border-radius: 12px;
 }
