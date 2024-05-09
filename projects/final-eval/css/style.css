@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Baloo Thambi 2", sans-serif;
+}
+
+#hero {
+    background-image: url("../image/super-bowl.jpeg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#whole-container p {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#first {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#second {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+#third {
+    margin-top: 0px;
+    font-size: 40px;
+}
+#fourth {
+    margin-top: 60px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    padding: 0px 12px;
+    box-shadow: -4px 4px 5px black;
+}
+#group {
+    background-color: red;
+    text-align: center;
+    padding: 0px 12px;
+    border-radius: 36px;
+    font-style: italic;
+    color: white;
+}
+
+#teams {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 100);
+    margin: 48px;
+}
+#teams img {
+    padding: 0px 12px;
+    margin-top: 48px;
+}
+#teams #bowl {
+    width: 300px;
+}
+#teams #super {
+    width: 400px;
+}
+#vs {
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    font-style: italic;
+}
+#teams h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#teams h3 {
+    margin-top: 0px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+
+#invitation {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#buttons #can,
+#buttons #cant {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    transition: 
+        transform 0.5s
+        box-shadow 0.5s;
+}
+#buttons #can a,
+#buttons #cant a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+#buttons #cant {
+    background-color: rgb(170, 2, 2);
+}
+#buttons #can {
+    background-color: rgb(2, 2, 100);
+}
+#buttons #can:hover,
+#buttons #cant:hover {
+    transform: translateY(-8px);
+    box-shadow: 5px 5px 7px #333333;
+}

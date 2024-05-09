@@ -105,3 +105,13 @@ body {
     transform: translateY(-8px);
 }
 
+.whole-container .description img {
+    width: 350px;
+    padding: 12px;
+}
+.whole-container .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
