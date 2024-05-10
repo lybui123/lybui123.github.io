@@ -187,3 +187,29 @@ body {
     width: 100%;
     border-radius: 12px;
 }
+
+.card {
+    background-color: #363b31;
+}
+.card p {
+    color: white;
+}
+.card .name {
+    font-family: "Papyrus";
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: bold
+}
+.card .ingredients {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0px;
+}
+.card .calories {
+    font-size: 13px;
+}
+.card .price {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00333333;
+}
