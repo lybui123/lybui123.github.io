@@ -20,6 +20,7 @@ body {
     align-items: flex-end;
     margin-right: auto;
     padding: 12px;
+    margin-left: 48px;
 }
 .header .logo #japanese {
     font-family: "Papyrus", sans-serif;
@@ -39,6 +40,7 @@ body {
     color: black;
     font-weight: bold;
     padding: 12px;
+    margin-right: 48px;
 }
 .header .navbar .menu {
     position: relative;
@@ -52,6 +54,9 @@ body {
 }
 .dropdown-menu a {
     border-bottom: 1px solid #fefaf6;
+    display: inline-block;
+    padding: 12px;
+    font-size: 13px;
 }
 .menu:hover .dropdown-menu {
     opacity: 1;
@@ -120,6 +125,11 @@ body {
 }
 #about {
     display: flex;
+}
+#description a {
+    color: #ff0000;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .footer {
