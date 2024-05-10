@@ -213,3 +213,78 @@ body {
     font-weight: bold;
     background-color: #00333333;
 }
+
+/* PHONE SIZE */
+@media screen and (max-width: 480px) {
+    .header .navbar a {
+        font-size: 13px;
+        margin-right: 0px;
+        padding-right: 5px;
+        text-align: center;
+    }
+
+    .header .dropdown-menu a {
+        padding: 5px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .header .logo {
+        margin-left: 5px;
+    }
+    .header .logo #japanese {
+        font-size: 16px;
+    }
+    .header .logo #cuisine {
+        font-size: 10px;
+        padding-top: 7px;
+    }
+    #home #japanese-cuisine-logo {
+        width: 300px;
+    }
+    #home #about {
+        flex-direction: column;
+        margin: 0px 12px;
+        padding: 2px 5px;
+    }
+    #home #about #overview h2, 
+    #home #about #mission-statement h2 {
+        font-size: 25px;
+    }
+    #home #about #overview {
+        border-bottom: 2px solid black;
+    }
+    #home #about #overview p {
+        border-right: 0px solid transparent;
+    }
+    #home #about #overview {
+        text-align: left;
+    }
+    #home #about #mission-statement {
+        text-align: right;
+    }
+    #home #about #overview p,
+    #home #about #mission-statement p {
+        font-size: 17px;
+    }
+    #home #food {
+        flex-direction: column;
+    }
+    #home #food #sushi-dish {
+        width: 450px;
+        padding-bottom: 0px;
+    }
+    #home #description h2 {
+        font-size: 29px;
+    }
+    #home #description p {
+        font-size: 18px;
+    }
+    #home #description a {
+        font-size: 16px;
+    }
+
+    .footer {
+        margin-top: 24px;
+        font-size: 14px;
+    }
+}
