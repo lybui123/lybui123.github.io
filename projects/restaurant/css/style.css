@@ -132,6 +132,65 @@ body {
     font-size: 20px;
     font-style: italic;
 }
+#featured {
+    display: flex;
+    flex-direction: column;
+    background-color: #363b31;
+    color: white;
+    padding: 24px;
+    margin: 12px 24px;
+}
+#featured .name {
+    font-family: "Papyrus";
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#gallery #featured .ingredients {
+    font-size: 20px;
+    margin-top: 0px;
+    font-style: italic;
+}
+#gallery #featured .calories {
+    font-size: 20px;
+}
+#gallery #featured .price {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #ff0000;
+    border-radius: 32px;
+    padding: 6px 12px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: -5px 5px 0px black;
+}
+#featured h1 {
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 32px;
+}
+#featured #box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery #featured #onigiri-sushi {
+    height: 40%;
+    width: 40%;
+    padding-right: 6px;
+    padding-left: 3px;
+}
+#gallery #featured #column {
+    padding: 0px 12px;
+}
+#gallery #page-content {
+    font-family: "Papyrus";
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
 
 .footer {
     background-color: #ff0000;
@@ -145,6 +204,7 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    padding-bottom: 7px;
 }
 .first-column,
 .second-column,
@@ -211,7 +271,6 @@ body {
 .card .price {
     font-size: 20px;
     font-weight: bold;
-    background-color: #00333333;
 }
 
 /* PHONE SIZE */
@@ -282,9 +341,26 @@ body {
     #home #description a {
         font-size: 16px;
     }
+    #menu #gallery h2 {
+        font-size: 30px;
+    }
+    #menu .name {
+        font-size: 25px;
+        padding: 0px 12px;
+    }
+    #menu .ingredients {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    #menu .price {
+        font-size: 20px;
+    }
 
     .footer {
         margin-top: 24px;
-        font-size: 14px;
+        font-size: 13px;
+    }
+    .footer a {
+        padding-bottom: 5px;
     }
 }
