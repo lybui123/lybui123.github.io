@@ -65,7 +65,7 @@ body {
 }
 .header .dropdown-menu a {
     border-bottom: 1px solid #fefaf6;
-    padding: 12px;
+    padding: 0px 12px;
     font-size: 13px;
     width: 100%;
     min-width: 70px;
@@ -274,7 +274,6 @@ body {
 }
 #menu #gallery img {
     width: 100%;
-    border-radius: 12px;
 }
 
 .card {
@@ -319,7 +318,7 @@ body {
 }
 
 /* PHONE SIZE */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 850px) {
     .header .navbar a {
         font-size: 13px;
         margin-right: 0px;
@@ -336,11 +335,11 @@ body {
         margin-left: 5px;
     }
     .header .logo #japanese {
-        font-size: 16px;
+        font-size: 25px;
     }
     .header .logo #cuisine {
-        font-size: 10px;
-        padding-top: 7px;
+        font-size: 15px;
+        padding-top: 2px;
     }
     #home #japanese-cuisine-logo {
         width: 300px;
@@ -403,7 +402,7 @@ body {
 
     .footer {
         margin-top: 24px;
-        font-size: 13px;
+        font-size: 15px;
     }
     .footer a {
         padding-bottom: 5px;
