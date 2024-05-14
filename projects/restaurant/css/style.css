@@ -21,8 +21,7 @@ body {
     align-items: flex-end;
     margin-right: auto;
     padding: 0px 12px;
-    padding-top: 6px;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     margin-left: 48px;
 }
 .header .logo #japanese {
@@ -65,7 +64,7 @@ body {
 }
 .header .dropdown-menu a {
     border-bottom: 1px solid #fefaf6;
-    padding: 0px 12px;
+    padding: 12px;
     font-size: 13px;
     width: 100%;
     min-width: 70px;
