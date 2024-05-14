@@ -154,6 +154,10 @@ body {
 #gallery #featured .calories {
     font-size: 20px;
 }
+#gallery #featured .price:hover {
+    transform: translateY(-8px);
+    background-color: #22a708;
+}
 #gallery #featured .price {
     display: inline-block;
     text-decoration: none;
@@ -164,6 +168,9 @@ body {
     font-size: 25px;
     font-weight: bold;
     box-shadow: -5px 5px 0px black;
+    transition: 
+        transform 0.5s,
+        background-color 0.5s;
 }
 #featured h1 {
     font-size: 50px;
@@ -187,9 +194,18 @@ body {
 #gallery #page-content {
     font-family: "Papyrus";
     font-weight: bold;
-    font-size: 100px;
+    font-size: 10vw;
     margin-top: 48px;
     margin-bottom: 0px;
+}
+#onigiri-menu img,
+#udon-menu img,
+#sushi-menu img,
+#side-dishes img,
+#best-selling-menu img,
+#drinks-menu img {
+    height: 250px;
+    object-fit: cover;
 }
 
 .footer {
@@ -271,6 +287,9 @@ body {
 .card .price {
     font-size: 20px;
     font-weight: bold;
+}
+#description a:hover {
+    color: #22a708;
 }
 
 /* PHONE SIZE */
@@ -362,5 +381,36 @@ body {
     }
     .footer a {
         padding-bottom: 5px;
+    }
+    #gallery #featured #box {
+        flex-direction: column;
+    }
+    #gallery #featured h1 {
+        font-size: 40px;
+        margin-bottom: 6px;
+    }
+    #gallery #featured .name {
+        font-size: 27px;
+    }
+    #gallery #featured .ingredients {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    #gallery #featured .calories {
+        margin-top: 0px;
+    }
+    #gallery #featured #box img {
+        padding: 16px 18px;
+        width: 400px;
+        padding-bottom: 0px;
+    }
+    #onigiri-menu img,
+    #udon-menu img,
+    #sushi-menu img,
+    #side-dishes img,
+    #best-selling-menu img,
+    #drinks-menu img {
+        height: 100px;
+        object-fit: cover;
     }
 }
